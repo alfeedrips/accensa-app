@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/notification-center",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/notification-center": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/notification-center",
+    "origin"
+  ]
+}
