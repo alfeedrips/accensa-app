@@ -41,7 +41,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "prepack": "pnpm build",
     "lint": "echo 'No lint configured for @accensa/sdk'",
     "test": "vitest run",
